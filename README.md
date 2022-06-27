@@ -1,2 +1,3 @@
-# ProjetoFinal_Introd.Program.
-Projeto Final para avaliação da segunda nota de Introdução a Programação.
+# Spelling - Projeto Final
+O Spelling é um jogo que busca testar a memória do jogador através de sua capacidade de memorizar uma sequência de letras que vai aumentando a cada vez que ele avança nas rodadas da partida. Este é um projeto institucional voltado para obtenção de nota da matéria de Introdução á Programação, ministrada pelo professor Fábio Feliciano, realizado pelos alunos David Lucas, Guilherme Lyare, João Bosco e Luiz Carlos, discentes do curso de Engenharia de Software pelo IFPE - Campus Belo Jardim.
+Todos nós esperamos que você tenha uma ótima experiência e que se sinta desafiado a melhorar seus resultados cada vez mais. Bom jogo!
