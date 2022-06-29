@@ -21,6 +21,7 @@ def bolha(lista):
 #Lista com o alfabeto para puxar as letras no jogo
 alfabeto = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
+#Inicializando algumas variáveis
 sequenciaJogo = []
 pontos = 0
 
@@ -140,6 +141,7 @@ def testeNome():
         if nome == testeRank[2] or (nome+'\n') == testeRank[2]:
             nomeExiste = True
     
+    #Mensagens de aviso para aparecer na tela caso o nome esteja inválido
     if nomeExiste == True:
         messagebox.showwarning('ATENÇÃO', 'Este nome de usuário já existe!')
     elif nome == '':
@@ -184,8 +186,6 @@ def telaJogo():
     global letraJogo
     letraJogo = Entry(janela, bd=5, bg='yellow', font=('Poppins Medium', 20), justify=CENTER)
     letraJogo.place(width=400, height=60, x=498, y=420)
-    
-    #Colocando música de fundo
 
 
 #Função que irá testar se a sequência do usuário bate com a sequência do jogo
@@ -252,6 +252,8 @@ def telaRanking():
     #Label
     labTelaRanking = Label(janela, image=imgTelaRanking)
     labTelaRanking.place(x=-2, y=-2)
+
+    #Testando quantos nomes tem no ranking para colocar os nomes na tela de ranking somente quando esse nome nessa posição existir
     if len(ranking) >= 1:
         if '\n' in ranking[0]:
             primeiroLugar = ranking[0][0:-1]
